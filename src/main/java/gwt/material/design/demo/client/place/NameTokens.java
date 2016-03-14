@@ -16,6 +16,7 @@ public class NameTokens {
     public static final String dropdown = "!dropdown";
     public static final String errors = "!errors";
     public static final String forms = "!forms";
+    public static final String editorforms = "!editorforms";
     public static final String footer = "!footer";
     public static final String loader = "!loader";
     public static final String media = "!media";
@@ -115,6 +116,10 @@ public class NameTokens {
     public static String getForms() {
         return forms;
     }
+    
+    public static String getEditorforms() {
+		return editorforms;
+	}
 
     public static String getFooter() {
         return footer;
